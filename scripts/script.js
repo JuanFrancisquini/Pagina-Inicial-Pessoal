@@ -29,6 +29,9 @@ var saud = document.querySelector('h3#isaud')
 var foto = document.querySelector('div#iimg')
 var foto350 = document.querySelector('div#iimg350')
 var foto564 = document.querySelector('div#iimg564')
+var main = document.querySelector('main')
+var h3 = document.querySelector('h3')
+var fundoicone = document.getElementsByClassName('fundoicone')
 
 hoje.innerHTML = `${dia} / ${mes} / ${ano}`
 
@@ -38,6 +41,9 @@ if (hora <= 23 && hora >= 19){
     foto350.style.background = "url(imagens/noite-350.jpg) top center"
     foto564.style.background = "url(imagens/noite-564.jpg) top center"
     fundo.style.background = "linear-gradient(to bottom, #000031, black)"
+    main.style.background = "#ffffff5b"
+    h3.style.textShadow = "2px 2px 3px rgba(0, 0, 0, 0.505)"
+
 } else if (hora <= 18 && hora >= 16){
     saud.innerHTML = `Bom final de tarde ${nome} !`
     foto.style.background = "url(imagens/tarde-300.jpg) top center"
@@ -50,6 +56,7 @@ if (hora <= 23 && hora >= 19){
     foto350.style.background = "url(imagens/dia-350.jpg) top center"
     foto564.style.background = "url(imagens/dia-564.jpg) center center"
     fundo.style.background = "linear-gradient(-12deg, #ffe817, #000072 80%)"
+
 }else if (hora <= 12 && hora > 07){
     saud.innerHTML = `Boa dia ${nome} !`
     foto.style.background = "url(imagens/dia-300.jpg) top center"
