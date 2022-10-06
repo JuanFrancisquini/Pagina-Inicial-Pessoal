@@ -41,9 +41,7 @@ if (hora <= 23 && hora >= 19){
     foto350.style.background = "url(imagens/noite-350.jpg) top center"
     foto564.style.background = "url(imagens/noite-564.jpg) top center"
     fundo.style.background = "linear-gradient(to bottom, #000031, black)"
-    main.style.background = "#ffffff5b"
-    h3.style.textShadow = "2px 2px 3px rgba(0, 0, 0, 0.505)"
-
+    main.style.background = "linear-gradient(to top, #ffffff70, #00000060)"
 } else if (hora <= 18 && hora >= 16){
     saud.innerHTML = `Bom final de tarde ${nome} !`
     foto.style.background = "url(imagens/tarde-300.jpg) top center"
