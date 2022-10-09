@@ -30,7 +30,7 @@
     div.tempohg{display: block;}
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 994.9px){
     div#noticia{
         display: block;
     }
@@ -75,7 +75,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 995px) {
     div.noticia{
         display: block;
     }
@@ -108,7 +108,8 @@
     }
 
     h1{
-        top: 7%;
+        font-size: 2.5em;
+        top: 10%;
     }
 
     h3#isaud{
