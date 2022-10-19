@@ -94,6 +94,7 @@ div.tempohp{
 h1{
     position: absolute;
     color: #7ad9fc;
+    width: 235px;
     font-size: 1.9em;
     left: 50%;
     top: 16%;
